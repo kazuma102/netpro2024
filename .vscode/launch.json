@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CSVReaderExample",
+            "request": "launch",
+            "mainClass": "CSVReaderExample",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
             "name": "NetproLabMember",
             "request": "launch",
             "mainClass": "NetproLabMember",
