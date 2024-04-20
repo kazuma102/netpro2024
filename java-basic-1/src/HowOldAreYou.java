@@ -3,6 +3,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.time.LocalDate;
 
 public class HowOldAreYou {
 
@@ -15,18 +16,45 @@ public class HowOldAreYou {
         // readLine() は、入出力エラーの可能性がある。エラー処理がないとコンパイルできない。
         // Java では、 try{ XXXXXXXX } catch(エラーの型 変数) { XXXXXXXXXXXXXXXXXX} と書く
         try {
-            System.out.println("何歳ですか?");
-            String line = reader.readLine();
-            int age = Integer.parseInt(line);
+            while (true) {
+                System.out.println("何歳ですか?");
+                String line = reader.readLine();
+                if (line.equals("e") || line.equals("q")) {
+                    System.out.println("終了します");
+                    break;
+                }
 
-            if 
+                int age = Integer.parseInt(line);
+                if (age < 0 || age >= 120) {
+                    System.out.println("年齢が正しくありません。もう一度入力してください");
+                    continue;
+                }
 
-            System.out.println("あなたは" + age + "歳ですね。");
-            System.out.println("あなたは10年後、" + (age + 10) + "歳ですね。");
+                int birthYear = LocalDate.now().getYear() - age;
+                String birthEra = getBirthEra(birthYear);
+                int ageIn2030 = 2030 - birthYear;
+
+                System.out.println("2030年時点の年齢: " + ageIn2030 + "歳");
+                System.out.println("誕生年の元号: " + birthEra);
+                System.out.println("あなたは" + age + "歳ですね。");
+                System.out.println("あなたは10年後、" + (age + 10) + "歳ですね。");
+                break;
+            }
         } catch (IOException e) {
             System.out.println(e);
         }
+    }
 
+    private static String getBirthEra(int year) {
+        String[] eraNames = { "明治", "大正", "昭和", "平成", "令和" };
+        int[] eraStartYears = { 1868, 1912, 1926, 1989, 2019 };
+
+        for (int i = eraStartYears.length - 1; i >= 0; i--) {
+            if (year >= eraStartYears[i]) {
+                return eraNames[i];
+            }
+        }
+        return "不明";
     }
 }
 
