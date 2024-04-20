@@ -32,12 +32,10 @@ public class HowOldAreYou {
 
                 int birthYear = LocalDate.now().getYear() - age;
                 String birthEra = getBirthEra(birthYear);
-                int ageIn2030 = 2030 - birthYear;
+                int age2030 = 2030 - birthYear;
 
-                System.out.println("2030年時点の年齢: " + ageIn2030 + "歳");
-                System.out.println("誕生年の元号: " + birthEra);
-                System.out.println("あなたは" + age + "歳ですね。");
-                System.out.println("あなたは10年後、" + (age + 10) + "歳ですね。");
+                System.out.println("2030年のときの年齢は、" + age2030 + "歳");
+                System.out.println("誕生年の元号は、" + birthEra);
                 break;
             }
         } catch (IOException e) {
