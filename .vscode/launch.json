@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "XmasTreeKadai",
+            "request": "launch",
+            "mainClass": "XmasTreeKadai",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
             "name": "MyExceptionHoliday",
             "request": "launch",
             "mainClass": "MyExceptionHoliday",
