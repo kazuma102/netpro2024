@@ -6,6 +6,141 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MyExceptionHoliday",
+            "request": "launch",
+            "mainClass": "MyExceptionHoliday",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "HeikinCKadai",
+            "request": "launch",
+            "mainClass": "HeikinCKadai",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "HeikinA",
+            "request": "launch",
+            "mainClass": "HeikinA",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "ClassC",
+            "request": "launch",
+            "mainClass": "ClassC",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "ClassA",
+            "request": "launch",
+            "mainClass": "ClassA",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "LoopAdvance",
+            "request": "launch",
+            "mainClass": "LoopAdvance",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "RandSwitch",
+            "request": "launch",
+            "mainClass": "RandSwitch",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "WhileTest",
+            "request": "launch",
+            "mainClass": "WhileTest",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "ExtendedFor",
+            "request": "launch",
+            "mainClass": "ExtendedFor",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "ForTest",
+            "request": "launch",
+            "mainClass": "ForTest",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "XmasTree",
+            "request": "launch",
+            "mainClass": "XmasTree",
+            "projectName": "netpro2024_566330d9",
+            "args": [
+                4,
+                8
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Calc3MethodTestInatance",
+            "request": "launch",
+            "mainClass": "Calc3MethodTestInatance",
+            "projectName": "netpro2024_566330d9",
+            "args": [
+                3,
+                9
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Calc3MethodTest",
+            "request": "launch",
+            "mainClass": "Calc3MethodTest",
+            "projectName": "netpro2024_566330d9",
+            "args": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Calc2ScannerFile",
+            "request": "launch",
+            "mainClass": "Calc2ScannerFile",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "Calc2Scanner",
+            "request": "launch",
+            "mainClass": "Calc2Scanner",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "Calc2",
+            "request": "launch",
+            "mainClass": "Calc2",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "Calc1",
+            "request": "launch",
+            "mainClass": "Calc1",
+            "projectName": "netpro2024_566330d9",
+            "args": [
+                1,
+                3
+            ]
+        },
+        {
+            "type": "java",
             "name": "CSVReaderExample",
             "request": "launch",
             "mainClass": "CSVReaderExample",
