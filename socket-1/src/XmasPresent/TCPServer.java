@@ -7,7 +7,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class XmasTCPServer {
+public class TCPServer {
 
     private static final int times = 2;
 
@@ -40,7 +40,7 @@ public class XmasTCPServer {
 
                 try {
                     while (true) { // クライアントからの複数メッセージを処理するループ
-                        XmasPresent present = (XmasPresent) ois.readObject(); // メッセージを受け取る
+                        Present present = (Present) ois.readObject(); // メッセージを受け取る
 
                         // クライアントが接続を終了するメッセージを確認
                         if (present == null || "exit".equalsIgnoreCase(present.getMessage())) {
@@ -53,7 +53,7 @@ public class XmasTCPServer {
                         String presentFromClient = present.getContent();
                         System.out.println("プレゼントの内容は " + presentFromClient);
 
-                        XmasPresent response = new XmasPresent();
+                        Present response = new Present();
                         response.setMessage("サーバーです。メリークリスマス！\n" + presentFromClient + "ありがとう。\nプレゼントのお返しは " + times + "倍 です");
                         response.setContent(serverProcess(presentFromClient));
 

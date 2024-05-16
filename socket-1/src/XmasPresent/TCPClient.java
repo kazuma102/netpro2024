@@ -6,7 +6,7 @@ import java.net.BindException;
 import java.net.Socket; //ネットワーク関連のパッケージを利用する
 import java.util.Scanner;
 
-public class XmasTCPClient {
+public class TCPClient {
 
     public static void main(String arg[]) {
         try {
@@ -26,7 +26,7 @@ public class XmasTCPClient {
             String content = scanner.next();
             scanner.close();
 
-            XmasPresent present = new XmasPresent();
+            Present present = new Present();
             present.setMessage(message);
             present.setContent(content);
 
@@ -35,7 +35,7 @@ public class XmasTCPClient {
 
             ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
 
-            XmasPresent okaeshiPresent = (XmasPresent) ois.readObject();
+            Present okaeshiPresent = (Present) ois.readObject();
 
             String replayMsg = okaeshiPresent.getMessage();
             System.out.println("サーバからのメッセージは" + replayMsg);
