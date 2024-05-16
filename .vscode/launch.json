@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "XmasTCPClient",
+            "request": "launch",
+            "mainClass": "XmasPresent.XmasTCPClient",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "XmasTCPServer",
+            "request": "launch",
+            "mainClass": "XmasPresent.XmasTCPServer",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "Socket.Server",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "Socket.Client",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
             "name": "XmasTreeKadai",
             "request": "launch",
             "mainClass": "XmasTreeKadai",
