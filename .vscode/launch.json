@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DinnerFullCource",
+            "request": "launch",
+            "mainClass": "DinnerFullCource",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "Dinner",
+            "request": "launch",
+            "mainClass": "Dinner",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "ReferencesArgument",
+            "request": "launch",
+            "mainClass": "ReferencesArgument",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "CheckLocalAddreess",
+            "request": "launch",
+            "mainClass": "CheckLocalAddreess",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
             "name": "XmasTCPClient",
             "request": "launch",
             "mainClass": "XmasPresent.XmasTCPClient",
