@@ -6,6 +6,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
+//一度だけ(サーバー)
 public class TaskServerOnce {
 
     public static void main(String[] args) {

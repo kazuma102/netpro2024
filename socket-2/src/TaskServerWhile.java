@@ -6,6 +6,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
+//繰り返し(サーバー)
 public class TaskServerWhile {
 
     public static void main(String[] args) {

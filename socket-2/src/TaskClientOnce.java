@@ -5,6 +5,7 @@ import java.net.BindException;
 import java.net.Socket;
 import java.util.Scanner;
 
+//一度だけ(クライアント)
 public class TaskClientOnce {
 
     public static void main(String[] args) {

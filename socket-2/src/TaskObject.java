@@ -1,6 +1,7 @@
 
 import java.io.Serializable;
 
+//オブジェクト
 public class TaskObject implements ITask, Serializable {
 
     int num = 0;

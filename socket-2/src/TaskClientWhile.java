@@ -5,6 +5,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class TaskClientWhile {
+    //繰り返し(クライアント)
     public static void main(String[] args) {
         try {
             Scanner scanner = new Scanner(System.in);
