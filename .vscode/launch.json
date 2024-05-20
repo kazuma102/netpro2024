@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TaskServerWhile",
+            "request": "launch",
+            "mainClass": "TaskServerWhile",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "TaskClientOnce",
+            "request": "launch",
+            "mainClass": "TaskClientOnce",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "TaskServerOnce",
+            "request": "launch",
+            "mainClass": "TaskServerOnce",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "TCPServer",
+            "request": "launch",
+            "mainClass": "XmasPresent.TCPServer",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "TCPClient",
+            "request": "launch",
+            "mainClass": "XmasPresent.TCPClient",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
             "name": "DinnerFullCource",
             "request": "launch",
             "mainClass": "DinnerFullCource",

@@ -1,0 +1,10 @@
+
+import java.io.Serializable;
+
+public interface ITask extends Serializable {
+    public void setExecNumber(int x); //クライアントで最初に計算させる数字を入力しておく関数
+
+    public void exec(); //サーバで計算を実行をさせる関数...計算アルゴリズムが記載される。下記アルゴリズムを参照のこと
+
+    public int getResult(); //クライアントで結果を取り出す関数
+}
