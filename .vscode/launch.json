@@ -6,6 +6,188 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountAZTenRunnable",
+            "request": "launch",
+            "mainClass": "kadai6C.CountAZTenRunnable",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "CountTenRunnable",
+            "request": "launch",
+            "mainClass": "thread.CountTenRunnable",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "ThreadArrayExample",
+            "request": "launch",
+            "mainClass": "thread.ThreadArrayExample",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "CountingThread",
+            "request": "launch",
+            "mainClass": "thread.CountingThread",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "DeadlockExample",
+            "request": "launch",
+            "mainClass": "thread.DeadlockExample",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "WithThreads",
+            "request": "launch",
+            "mainClass": "thread.WithThreads",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "WithoutThreads",
+            "request": "launch",
+            "mainClass": "thread.WithoutThreads",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "LambdaExpressionExample",
+            "request": "launch",
+            "mainClass": "thread.LambdaExpressionExample",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "AnonymousClassExample",
+            "request": "launch",
+            "mainClass": "thread.AnonymousClassExample",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "MyRunnable",
+            "request": "launch",
+            "mainClass": "thread.MyRunnable",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "MyThread",
+            "request": "launch",
+            "mainClass": "thread.MyThread",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "MulticastClient",
+            "request": "launch",
+            "mainClass": "kadai6B.MulticastClient",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "MulticastServer",
+            "request": "launch",
+            "mainClass": "kadai6B.MulticastServer",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "UDPClient",
+            "request": "launch",
+            "mainClass": "kadai6A.UDPClient",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "UDPServer",
+            "request": "launch",
+            "mainClass": "kadai6A.UDPServer",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "UDPClient",
+            "request": "launch",
+            "mainClass": "kadai6.UDPClient",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "UDPServer",
+            "request": "launch",
+            "mainClass": "kadai6.UDPServer",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "UDPClientWhile",
+            "request": "launch",
+            "mainClass": "networking.UDPClientWhile",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "UDPServerWhile",
+            "request": "launch",
+            "mainClass": "networking.UDPServerWhile",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "UDPServerWhile",
+            "request": "launch",
+            "mainClass": "UDPServerWhile",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "UDPClientWhile",
+            "request": "launch",
+            "mainClass": "UDPClientWhile",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "UDPServer",
+            "request": "launch",
+            "mainClass": "UDPServer",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "UDPClient",
+            "request": "launch",
+            "mainClass": "UDPClient",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "MainCallBack",
+            "request": "launch",
+            "mainClass": "callback.MainCallBack",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "RandomStringGenerator",
+            "request": "launch",
+            "mainClass": "basic.RandomStringGenerator",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "StringProcessing",
+            "request": "launch",
+            "mainClass": "basic.StringProcessing",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
             "name": "TaskServerWhile",
             "request": "launch",
             "mainClass": "TaskServerWhile",
