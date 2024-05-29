@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExThreadsMain",
+            "request": "launch",
+            "mainClass": "kadai6D.ExThreadsMain",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
             "name": "CountAZTenRunnable",
             "request": "launch",
             "mainClass": "kadai6C.CountAZTenRunnable",
