@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FacesAWTHorieKazuma",
+            "request": "launch",
+            "mainClass": "guibasic.FacesAWTHorieKazuma",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
+            "name": "FacesAWTMain",
+            "request": "launch",
+            "mainClass": "guibasic.FacesAWTMain",
+            "projectName": "netpro2024_566330d9"
+        },
+        {
+            "type": "java",
             "name": "ExThreadsMain",
             "request": "launch",
             "mainClass": "kadai6D.ExThreadsMain",
